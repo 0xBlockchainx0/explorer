@@ -1,4 +1,17 @@
-export const expressionExplainer = { robot: 'You start the robot dance!', wave: 'You start waving', fistpump: 'You start fist-pumping', tik: "Those movements are sexy!", hammer: "You know how to show off at the dance floor!", tektonik: "What a great dancer!" }
+export const expressionExplainer = { 
+  robot: 'You start the robot dance!',
+  wave: 'You start waving',
+  fistpump: 'You start fist-pumping',
+  tik: "Those movements are sexy!",
+  hammer: "You know how to show off at the dance floor!",
+  tektonik: "What a great dancer!",
+  dontsee: "",
+  handsair: "",
+  shrug: "",
+  twerk: "",
+  dab: "",
+  headexplode: ""
+}
 export const validExpressions = Object.keys(expressionExplainer)
 
 export type validExpression = keyof typeof validExpressions
