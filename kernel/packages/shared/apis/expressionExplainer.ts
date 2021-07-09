@@ -8,7 +8,7 @@ export const expressionExplainer = {
   dontsee: "",
   handsair: "",
   shrug: "",
-  // twerk: "", disabling twerk until the animation is polished
+  disco: "",
   dab: "",
   headexplode: ""
 }
