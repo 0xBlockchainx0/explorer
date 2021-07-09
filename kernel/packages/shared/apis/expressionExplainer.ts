@@ -1,4 +1,4 @@
-export const expressionExplainer = { 
+export const expressionExplainer = {
   robot: 'You start the robot dance!',
   wave: 'You start waving',
   fistpump: 'You start fist-pumping',

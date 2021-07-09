@@ -111,8 +111,9 @@ function* handleSendMessage(action: SendMessage) {
   if (message[0] === '/') {
     entry = handleChatCommand(message)
 
-    if(entry === undefined) // Command is found but has no feedback message
+    if(entry === undefined) { // Command is found but has no feedback message
       return
+    }
 
     // If no such command was found, provide some feedback
     if (!entry) {
